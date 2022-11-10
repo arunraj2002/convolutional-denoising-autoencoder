@@ -1,17 +1,16 @@
 # Convolutional Autoencoder for Image Denoising
 
 ## AIM
-
 To develop a convolutional autoencoder for image denoising application.
 
 ## Problem Statement and Dataset
+Using autoencoder, we are trying to remove the noise added in the encoder part and tent to get the output which should be same as the input with minimal loss.
+The dataset which is used is mnist dataset.
 
 ## Convolution Autoencoder Network Model
-
-Include the neural network model diagram.
+![nn](https://user-images.githubusercontent.com/77089743/201087716-0a56206c-d6b4-448f-ac99-7b6dbcbba3c0.jpg)
 
 ## DESIGN STEPS
-
 ### STEP 1:
 Download and split the dataset into training and testing datasets
 ### STEP 2:
@@ -101,7 +100,9 @@ plt.show()
 ```
 
 ## OUTPUT
-![Screenshot from 2022-11-08 18-15-00](https://user-images.githubusercontent.com/75235212/200566849-4a550bf0-b7ab-4807-84d2-fe149915e823.png)
+### Training Loss, Validation Loss Vs Iteration Plot
+<img src="https://user-images.githubusercontent.com/77089743/201087292-b7e48aa9-f593-4574-aef7-230932e420c2.png" width="500">
+<img src="https://user-images.githubusercontent.com/75235212/200566849-4a550bf0-b7ab-4807-84d2-fe149915e823.png" width="500">
 
 ### Original vs Noisy Vs Reconstructed Image
 
